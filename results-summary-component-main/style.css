@@ -1,0 +1,151 @@
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+background-color:white;
+
+
+}
+.left{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+   background:blue;
+   height:340px;
+   width:150px;
+   border-radius:15px;
+   color:white;
+   padding: 30px;
+   gap:20px;
+   
+
+   
+
+}
+.main{
+    display:flex;
+    justify-content: center;
+    float:left;
+    align-items:center;
+    padding:10px;
+    margin:10px;  
+
+}
+.right{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+   background:white;
+   height:400px;
+   width:200px;
+   border-radius:15px;
+   background-color:pink;
+}
+.circle
+{
+    background-color:hsl(228, 76%, 40%);
+    border-radius:50px;
+    height:150px;
+    width:140px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius:100%;
+    border:2px solid blue;
+   
+    
+
+}
+
+.reaction{
+    background-color:rgb(247,215,215);
+    color:red;
+    padding:10px;
+    height:25px;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-evently;
+    margin:10px;
+   
+    
+}
+.memory{
+    background-color:rgb(247,215,215);
+    color:orange;
+    padding:10px;
+    height:25px;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-evently;
+    margin:5px;
+}
+.verbal{
+    background-color:rgb(247,215,215);
+    color:green;
+    padding:10px;
+    height:25px;
+    border-radius:10px;
+    display:flex;
+    margin:10px;
+    width:128px;
+    justify-content:space-evently;
+}
+.visual{
+    background-color:rgb(247,215,215);
+    color:blue;
+    padding:10px;
+    height:25px;
+    border-radius:10px;
+    display:flex;
+    width:128px;
+    justify-content:space-evently;
+    margin:10px;
+}
+.continue
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid blue;
+    border-radius:15px;
+    color:white;
+    background-color:blue;
+    padding:6px;
+    width:128px;
+    margin:10px;
+
+    
+}
+.test
+{
+    font-size:50px;
+}
+.check
+{
+    font-size:12px;
+   
+}
+.check1
+{
+    font-size:12px;
+}
+.check2
+{
+    font-size:12px;
+
+}
+.check3
+{
+    font-size:30px;
+    text-align: justify;
+}
+.check4
+{
+    font-size:25px;
+}
